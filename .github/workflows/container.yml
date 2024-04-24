@@ -1,11 +1,11 @@
-name: deploy-container
+name: deploy-container-test
 
 on:
   push:
     branches:
       - master
     paths:
-      - "packages/container/**"
+      - 'packages/container/**'
 
 defaults:
   run:
